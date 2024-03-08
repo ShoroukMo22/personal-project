@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shorouk Mohamed</title>
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+
+     <label class="burger-menu"  for="menu">
+      <div class="burger-menu__bar"></div>
+      <div class="burger-menu__bar"></div>
+      <div class="burger-menu__bar"></div>
+     </label>
+
+   <input id="menu"  type="checkbox"  class="burger-menu__checkbox"/>
+
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li><a href="#bio" class="navigation__link   navigation__bio">Bio</a></li>
+            <li><a href="#skills" class="navigation__link   navigation__skills">Skills</a></li>
+            <li><a href="#media" class="navigation__link   navigation__media">Media</a></li>
+            <li><a href="#projects" class="navigation__link    navigation__projects">Projects</a></li>
+            <li><a href="#contact" class="navigation__link   navigation__contact">Contact</a></li>
+            <li><a href="#clients" class="navigation__link   navigation__clients">My clients</a></li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi there, I am a passionate software engineer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">SHOROUK MOHAMED</span>I'm a
+            student who's passionate about diving into the world of front-end
+            web development and software development.
+          </p>
+
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="./Shorouk's Resume .pdf" class="bio__links find-out-link"
+           target="_blank" >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="./images/personal-pic.png"
+            alt="image of shorouk"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">html</h2>
+            <span class="skills__years">1 year</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">css</h2>
+            <span class="skills__years">1 year</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills__years">2 months</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">redux</h2>
+            <span class="skills__years">0 year</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">react</h2>
+            <span class="skills__years">1 month</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React testing library</h2>
+            <span class="skills__years">0 year</span>
+          </li>
+        </ul>
+      </section>
+      <section id="media" class="media section">
+        <video
+          class="media__video"
+          src="./video.mp4"
+          poster="./images/pic.jpg"
+          controls
+        >
+          <sourc src="./video.mp4" type="video/mp4" />
+        </video>
+      </section>
+
+
+
+    <section id="projects" class="section projects">
+      <h2 class="h2-heading">
+        MY FEATURED <br />
+        PROJECTS
+      </h2>
+      <div class="projects__main">
+        <img class="projects__img responsive-img" src="./images/project-1.png" alt="  ONLINE FURNITURE SHOPPING" />
+        <div class="projects__data">
+          <h3 class="h3-heading">
+            ONLINE FURNITURE <br />
+            SHOPPING
+          <p class="projects__description">
+            I have created an online shopping website with HTML, CSS, and JavaScript
+          in collaboration with my friends from college. I specifically worked
+          on designing the product page and the shopping cart page. Feel free to
+          visit and explore the fantastic shopping experience we've crafted!"
+          </p>
+          <a class="projects__link"href="https://shoroukmo22.github.io/online-furniture-project/Home.html" target="_blank">Chrome Link</a>
+          <span>-</span>
+          <a class="projects__link" href="https://shoroukmo22.github.io/online-furniture-project/Home.html" target="_blank">Edge Link</a>
+        </div>
+
+        <div class="projects__data">
+          <h3 class="h3-heading">
+            WEBSITE FOR <br/>
+            KOREAN RECIPES
+          </h3>
+          <p class="projects__description">
+            my first and small html and css website for korean recipes, it contains most famouse dishes and drinks in korea. 
+          </p>
+          <a class="projects__link" href="#" target="_blank">Chrome Link</a>
+          <span>-</span>
+          <a class="projects__link" href="#" target="_blank">Firefox Link</a>
+          <span>-</span>
+          <a class="projects__link" href="#" target="_blank">Edge Link</a>
+        </div>
+        <img class="projects__img responsive-img" src="./images/project-2.png" alt="WEBSITE FOR KOREAN RECIPES" />
+      </div>
+    </section>
+
+
+    <section  id="clients" class="clients section  section--with-bg" id="clients">
+      <h2 class="h2-heading">
+        what my <br />
+        clients says
+      </h2>
+
+      <div class="clients__opinions">
+        <div class="clients__wrapper">
+          <p class="clients__opinion">
+            shorouk has the advantageous ability to understand a problem and implement code to a high standard within
+            the deadline.
+          </p>
+          <p class="clients__opinion">
+            shorouk will patiently listen to you and give you his own Ideas as well, and in the end, he comes up with
+            something completely different from what you’re expecting, but the good news is, you’ll always love it.
+          </p>
+          <p class="clients__opinion">
+            During her internship, she has demonstrated her skills
+            with self-motivation to learn new skills.
+            Her performance met our expectations and she was able
+            to complete the project on time.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+
+    <section id="contact" class="section contact">
+      <div>
+        <p class="contact__description">
+          Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time
+          zones away.
+        </p>
+
+        <a href="mailto: chroqmohmed123456@gmail.com" class="contact__email">chroqmohmed123456@gmail.com</a>
+
+        <div class="contact__socials">
+          <a class="contact__social" href="#">
+            <img src="./images/brand/facebook.svg" alt="facebook" />
+          </a>
+          <a class="contact__social" href="#">
+            <img src="./images/brand/twitter.svg" alt="twitter" />
+          </a>
+          <a class="contact__social" href="#">
+            <img src="./images/brand/youtube.svg" alt="youtube" />
+          </a>
+          <a class="contact__social" href="#">
+            <img src="./images/brand/github.svg" alt="github" />
+          </a>
+          <a class="contact__social" href="#">
+            <img src="./images/brand/instagram.svg" alt="instagram.svg" />
+          </a>
+          <a class="contact__social" href="#">
+            <img src="./images/brand/LinkedIn.svg" alt="LinkedIn.svg" />
+          </a>
+        </div>
+      </div>
+
+      <div class="contact__formContent">
+        <h2 class="h2-heading">
+          Let’s Work <br />
+          Together!
+        </h2>
+        <form action="results.html">
+          <div class="contact__inputs">
+            <input type="text" class="contact__input" name="name" placeholder="Full Name" required />
+            <!-- <input type="email" class="contact__input" placeholder="Email" required /> -->
+            <input
+              type="tel"
+              class="contact__input"
+              placeholder="Phone No."
+              name="tel"
+              required
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            />
+          </div>
+          <textarea
+            class="contact__input contact__textarea"
+            name="message"
+            placeholder="Your Message"
+            rows="1"
+            required
+          ></textarea>
+          <input type="submit" class="contact__button" value="Send Message" />
+        </form>
+      </div>
+    </section>
+
+
+
+    <footer class="footer"> &copy; 2024 by Shorouk Mohamed </footer>
+
+  </body>
+</html>
